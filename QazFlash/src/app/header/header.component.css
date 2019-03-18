@@ -1,0 +1,77 @@
+.site_name {
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Bahnschrift Light', Times, serif;
+    font-size: 100px;
+    color: black;
+    width: 100%;
+}
+
+.header_div{
+    width: 100%;
+    margin-left: none;
+}
+.nav {
+    display: inline-block;
+    width: 100%;      
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    display: inline-block;
+}
+#nav_element1{
+    margin-right: none;
+    margin-left: 400px;
+    text-decoration-line: underline;
+}
+#nav_element2 {
+    color: black;
+    margin-left: none;
+    /* text-decoration-line: underline; */
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.nav li a:hover {
+    font-family: 'Open Sans',sans-serif;
+    text-decoration-line: underline;
+}
+#vhod {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin-left: 90px; 
+    float: right;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#reg {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+button {
+    cursor: pointer;
+}

@@ -1,75 +1,3 @@
-#first {
-    background-color: yellow;   
-}
-#second {
-    
-    padding-top: 30px;
-    width:1550px;
-    height: 1200px;
-    background-size:700px;
-    background-color:  white;
-    
-}
-#img1 {
-    padding-top:100px;
-    padding-left:550px;
-    width: 600px;
-}
-#firstH {
-    position: absolute;
-    padding-top:200px;
-    padding-left:430px;
-}
-#secondH {
-    position: absolute;
-    padding-top:250px;
-    padding-left:430px;
-}
-#third {
-    width: 259;
-    height: 207;
-    position: absolute;
-    padding-left:250px;
-    padding-top:50px;
-}
-#four {
-    width:284;
-    height: 70;
-    position:absolute;
-    padding-left:550px;
-    padding-top:50px;
-    
-}
-#form1 {
-    padding-left:550px;
-    padding-top:200px;
-    width: 100px;
-    float: left;
-    
-}
-#kart {
-    padding-left: 850px;
-    padding-top:60px;
-}
-#submit1 {
-    background-color: black;
-    color: white;
-    height: 30px;
-    
-}
-#img2 {
-    padding-left: 240px;
-}
-.container {
-    position:absolute;
-    padding-top: 50px;
-}
-footer {
-    margin-top: 550px;
-}
-#submit1 {
-    cursor: pointer;
-}
 .site_name {
     margin: 0px;
     text-align: center;
@@ -79,6 +7,7 @@ footer {
     color: black;
     width: 100%;
 }
+
 .header_div{
     width: 100%;
     margin-left: none;
@@ -101,11 +30,12 @@ footer {
 #nav_element1{
     margin-right: none;
     margin-left: 500px;
+    text-decoration-line: underline;
 }
-#nav_element4 {
+#nav_element2 {
     color: black;
     margin-left: none;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 
 .nav li a {
@@ -121,22 +51,7 @@ footer {
     font-family: 'Open Sans',sans-serif;
     text-decoration-line: underline;
 }
-
-#main_photo {
-    width: 100%;
-    margin: 0px;
-}
-#reg{
-    background-color: orange;
-    width: 100px;
-    height: 30px;
-    float: right;
-    margin-left: 20px;
-    font-size: 15px;
-    border: none;
-    border-radius: 10px;
-}
-#vhod{
+#vhod {
     background-color: red;
     width: 100px;
     height: 30px;
@@ -146,14 +61,28 @@ footer {
     border: none;
     border-radius: 10px;
 }
-button {
-    cursor: pointer;
+
+#reg {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#main_photo {
+    width: 100%;
 }
 
 footer {
     background-color: #333;
     width: 100%;
     height: 300px;
+    /* margin-top: 40%; */
 }
 .footer_div {
     float: left;
@@ -187,7 +116,7 @@ footer {
     font-weight: bold;
     cursor: pointer;
 } 
-#footer_input {
+ #footer_input {
     float: left;
     width: 300px;
     height: 35px;
@@ -220,3 +149,12 @@ footer {
     margin-left: 43%;
     color: white; 
 }
+
+button {
+    cursor: pointer;
+}
+
+/* body {
+    background-image: url("QazFlash_brand.png");
+    opacity: 0.7;
+} */
