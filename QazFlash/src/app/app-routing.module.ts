@@ -8,6 +8,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ChargComponent } from './store/products/charg/charg.component';
 import { CameraComponent } from './store/products/camera/camera.component';
 import { RaykubeComponent } from './store/products/raykube/raykube.component';
+import { EnereaWiDockComponent } from './store/products/enerea-wi-dock/enerea-wi-dock.component';
 
 const routes: Routes = [
   {path: '', component: MainComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'contacts', component: ContactsComponent},
   {path: 'store/products/charg', component: ChargComponent},
   {path: 'store/products/camera', component: CameraComponent},
-  {path: 'store/products/raykube', component: RaykubeComponent}
+  {path: 'store/products/raykube', component: RaykubeComponent},
+  {path: 'store/products/enerea-wi-dock', component: EnereaWiDockComponent}
 ];
 
 @NgModule({

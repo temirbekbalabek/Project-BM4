@@ -14,6 +14,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { ChargComponent } from './store/products/charg/charg.component';
 import { CameraComponent } from './store/products/camera/camera.component';
 import { RaykubeComponent } from './store/products/raykube/raykube.component';
+import { EnereaWiDockComponent } from './store/products/enerea-wi-dock/enerea-wi-dock.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RaykubeComponent } from './store/products/raykube/raykube.component';
     ContactsComponent,
     ChargComponent,
     CameraComponent,
-    RaykubeComponent
+    RaykubeComponent,
+    EnereaWiDockComponent
   ],
   imports: [
     BrowserModule,
