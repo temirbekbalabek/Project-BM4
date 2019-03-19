@@ -1,0 +1,83 @@
+.charge_images {
+    display: inline-block;   
+    width: 600px;
+    height: 770px;
+    margin-left: 200px;
+}
+
+.charge_info {
+    float: right;
+    margin-right: 40px;
+    width: 600px;
+    height: 770px;
+}
+
+#photo1 {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.ig img {
+    border-radius: 5px;
+}
+
+.ig img:hover {
+    cursor: pointer;
+}
+
+#photo2 {
+    margin-left: 10px;
+    width: 140px;
+    height: 150px;
+    border: 3px solid black;
+}
+#photo3 {
+    margin-left: 1px;
+    width: 140px;
+    height: 150px;
+    border: 3px solid black;
+}
+#photo4 {
+    margin-left: 1px;
+    width: 140px;
+    height: 150px;
+    border: 3px solid black;
+}
+#photo5 {
+    margin-left: 1px;
+    width: 140px;
+    height: 150px;
+    border: 3px solid black;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin-left: 420px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-left: 430px;
+    font-size: 14px;
+    background-color: rgb(0,250,12);
+    color: black;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    width: 155px;
+    height: 45px;
+}
